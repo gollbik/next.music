@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import { Box, Paper } from "@mui/material";
+import { Box } from "@mui/material";
+import Image from "next/image";
 
 const SliderComponent = () => {
   const slides = [
@@ -33,7 +34,12 @@ const SliderComponent = () => {
     <Box style={sliderStyles}>
       <Carousel>
         {slides.map((slide, index) => (
-          <img src={slide.img} style={imageStyles} alt={`slide-${index}`} />
+          <Image
+            src={slide.img}
+            key={index}
+            style={imageStyles}
+            alt={`slide-${index}`}
+          />
         ))}
       </Carousel>
     </Box>
