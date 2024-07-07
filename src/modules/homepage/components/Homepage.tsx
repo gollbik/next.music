@@ -1,9 +1,9 @@
 // app/page.tsx
 import React from "react";
 import SliderComponent from "./slider/Slider";
-import CardList from "~/components/album-list/AlbumList";
 import { Box, Typography } from "@mui/material";
 import { demomusic } from "../data/demo-music-data";
+import CardList from "@/components/album-list/AlbumList";
 
 const Homepage = () => {
   const getAlbumsByTitle = (title: string) => {

@@ -1,8 +1,8 @@
 "use client";
 import { Inter } from "next/font/google";
-import "~/styles/scss/globals.scss";
-import Navbar from "~/components/navbar/Navbar";
-import Sidebar from "~/components/sidebar/Sidebar";
+import "@/styles/scss/globals.scss";
+import Navbar from "@/components/navbar/Navbar";
+import Sidebar from "@/components/sidebar/Sidebar";
 import React, { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });

@@ -3,7 +3,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import AlbumCards from "../album-card/AlbumCard";
-import { DemoMusic } from "~/modules/homepage/types/demomusic";
+import { DemoMusic } from "@/modules/homepage/types/demomusic";
 
 interface CardListProps {
   albums: DemoMusic["albums"];

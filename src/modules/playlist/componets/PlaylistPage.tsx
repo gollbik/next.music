@@ -8,8 +8,8 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import DownloadIcon from "@mui/icons-material/Download";
-import TrackList from "~/components/track-list/TrackList";
-import { demomusic } from "~/modules/homepage/data/demo-music-data";
+import TrackList from "@/components/track-list/TrackList";
+import { demomusic } from "@/modules/homepage/data/demo-music-data";
 
 const PlaylistPage = () => {
   const pathname = usePathname();
