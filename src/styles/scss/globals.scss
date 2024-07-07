@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 18, 18, 18; /* #121212 */
+  --background-end-rgb: 18, 18, 18; /* #121212 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 18, 18, 18; /* #121212 */
+    --background-end-rgb: 18, 18, 18; /* #121212 */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: Arial, sans-serif; /* Setăm fontul Arial */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
